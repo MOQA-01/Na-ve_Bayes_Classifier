@@ -59,7 +59,7 @@ The notebook is structured as follows:
      predictions = model.predict(X_test)
      print("Accuracy:", accuracy_score(y_test, predictions))
      print("Classification Report:
-", classification_report(y_test, predictions))
+      ", classification_report(y_test, predictions))
      ```
    - Visualizations:
      - Confusion matrix for analyzing prediction errors.
